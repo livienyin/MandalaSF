@@ -25,6 +25,7 @@ def parse_host_and_port():
 
 application = web.Application(
     [
+	(r"", web.StaticFileHandler, {'path': "./static/index.html"),
         (r"/(.*)", web.StaticFileHandler, {"path": "./static"}),
     ]
 )
