@@ -1,0 +1,62 @@
+@font-face {
+    font-family: hydrophilia, Arial, sans-serif;
+    src: url('Hydrophilia_Liquid.ttf');
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: futura, Arial, sans-serif;
+}
+
+h2{
+    font-family: hydrophilia, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 200%;
+    text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+img{
+    margin: 10px;
+    vertical-align: middle;
+}
+
+#headline{
+   font-size: 150%;
+}
+
+a {
+    font-family: hydrophilia;
+    font-size: 200%;
+    color: white;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
+a:hover{
+    color: #00FFFF;
+}
+
+a:shadow {
+    box-shadow: 3px 3px 4px #000;
+}
+
+hr{
+    height:3px;
+    background-color: black;
+    border: none;
+    width: 90%;
+    color: black;
+}
+
+div.bottom {
+  background-color: #fff;
+}
+
+div.top {
+  background-color: #FF682C;
+}
