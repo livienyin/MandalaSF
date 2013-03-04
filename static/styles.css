@@ -29,6 +29,10 @@ img{
    font-size: 150%;
 }
 
+#sponsor_text{
+    color: gray;
+}
+
 a {
     font-family: hydrophilia;
     font-size: 200%;
