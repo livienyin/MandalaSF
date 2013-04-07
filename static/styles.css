@@ -64,3 +64,8 @@ div.bottom {
 div.top {
   background-color: #FF682C;
 }
+
+.video {
+  margin-top: 3%;
+  border: 5px solid black;
+}
